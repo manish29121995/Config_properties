@@ -1,14 +1,21 @@
-datasource:
-    url: jdbc:mysql://localhost:3306/major_project
+spring:   
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/ 
+      
+  datasource:
+    url: jdbc:mysql://localhost:3306/
     username: root
     password: 1995
     driver-class-name: com.mysql.cj.jdbc.Driver 
-
- jpa:
+  jpa:
     hibernate:
-      ddl-auto: update  
+      ddl-auto: update
+      
     show-sql: true
-
+    
+    
 management:
   endpoints:
     web:
@@ -16,5 +23,6 @@ management:
         include: '*'     
 
 server:
-  port: 8081    
-    
+  port: 8081
+  
+  
