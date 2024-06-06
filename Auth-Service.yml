@@ -1,5 +1,5 @@
 datasource:
-    url: jdbc:mysql://localhost:3306/
+    url: jdbc:mysql://localhost:3306/major_project
     username: root
     password: 1995
     driver-class-name: com.mysql.cj.jdbc.Driver 
