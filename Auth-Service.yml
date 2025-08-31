@@ -5,9 +5,9 @@ spring:
         url: http://localhost:1111/ 
       
   datasource:
-    url: jdbc:mysql://localhost:3306/major_project
+    url: jdbc:mysql://localhost:3306/e_commerce
     username: root
-    password: 1995
+    password: Aman@2000
     driver-class-name: com.mysql.cj.jdbc.Driver 
   jpa:
     hibernate:
