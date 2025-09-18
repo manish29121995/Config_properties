@@ -11,7 +11,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
     
 management:
@@ -26,6 +26,8 @@ server:
 auth-service :
    messages : 
     userReg : User Created Successfully.
-    userError : User creation  Failed.
+    userRegErr : User creation  Failed.
+    roleReg : Role Created Successfully.
+    roleRegError : Role creation  Failed.
     login : Loggin success.
     loginError : User Credentials is invalid.  
