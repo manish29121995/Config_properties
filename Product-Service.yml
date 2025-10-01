@@ -22,3 +22,26 @@ management:
 
 server:
   port: 8082
+
+product-service:
+   messages:
+    categoryAdded: Category Added Successfully
+    categoryAddedErr: Category Failed to Add
+    categoryUpdate: Category Updated Successfully
+    categoryUpdateFail: Category Updated Failed
+    categoryFatch: All Category Fetch Successfully
+    categoryFatchErr: Failed To Fetch Category
+    categorySelect:  Category Retrieved 
+    categorySelectErr: Failed to Retrieve
+    categoryDelete: Category Deleted Successfully
+    categoryDeleteErr: Failed To Deleted
+    
+    productAdded: Product Added Successfully
+    productAddedErr: Product Failed to Add
+    productUpdate: Product Updated Successfully
+    productUpdateErr: Product failed to Update
+    productFatch: All Product Fetch Successfully
+    productFatchErr: Failed to Fetch Product
+    productSelect: Product Retrieved
+    productSelectErr: Failed to Retrieved the Product
+    productDelete: Product Deleted Successfully
