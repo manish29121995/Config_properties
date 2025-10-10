@@ -21,4 +21,15 @@ management:
         include: '*'     
 
 server:
-  port: 8082
+  port: 8083
+
+cart-service:
+   messages:
+    cartAdded: Added To The Cart Successfully
+    cartAddedErr: Failed to Add To The Cart
+    cartUpdate: Cart Updated Successfully
+    carteUpdateFail: Cart Updated Failed
+    catrSelect:  Cart Retrieved 
+    cartSelectErr: Failed to Retrieve The Cart
+    cartDelete: Cart Deleted Successfully
+    cartDeleteErr: Failed To Deleted
